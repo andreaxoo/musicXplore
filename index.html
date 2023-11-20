@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>musicXplore</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="./css/estilos.css">
+	<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('3S1QV7mbujVLO-0MG')
+</script>
+</head>
+
+<body>
+	<header>
+		<img class="logo" src="./img/logomxr.jpeg">
+		<button class="menu-abierto" id="abrir"><i class="bi bi-house-door"></i></button>
+		<nav class="nav" id="nav">
+			<button class="cerrar-menu" id="cerrar"><i class="bi bi-x-square"></i></button>
+			<ul class="nav-lista">
+				<li><a href="#Home">Inicio</a></li>
+				<li><a href="#Artists">Artistas</a></li>
+				<li><a href="#News">Novedades</a></li>
+				<li><a href="#Contact">Contacto y Soporte</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="Home" id="home">
+		<div class="inicio-container">
+			<h2 class="subtitle">Publicar algo:</h2>
+			<form2>
+				<label for="titulo">Titulo:</label>
+				<input type="text" id="titulo" name="titulo">
+	
+				<label for="contenido">Contenido:</label>
+				<textarea id="contenido" name="contenido"></textarea>
+	
+				<button type="submit">Publicar</button>
+			</form2>
+		<div class="post">
+				<div class="user-info">
+				   <img src="./img/pfp2.jpg" alt="Profile picture">
+				   <h3>Gael</h3>
+				</div>
+				<div class="text-over-image">
+					<h1>Rauw y Rosalía</h1>
+					<p> La tensión que existió en los Latin Grammys, habrán visto la presentación del otro?</p>
+				 </div>
+				<div class="post-actions">
+				   <button>Me gusta</button>
+				   <button>Comentar</button>
+				   <button>Compartir</button>
+				</div>
+			   </div>
+		<div class="post">
+				<div class="user-info">
+				   <img src="./img/ye.jpg" alt="Profile picture">
+				   <h3>Gabrieel</h3>
+				</div>
+				<div class="text-over-image">
+					<h1>Hola</h1>
+					<p>Mi primer post</p>
+				 </div>
+				<div class="post-actions">
+				   <button>Me gusta</button>
+				   <button>Comentar</button>
+				   <button>Compartir</button>
+				</div>
+			   </div>
+		<div class="post">
+			   <div class="user-info">
+				<img src="img/pfp" alt="Profile picture">
+				<h3>Viki</h3>
+			 </div>
+			 <div class="text-over-image">
+				 <h1>Hola</h1>
+				 <p>Hola, qué opinan de que Ye no lanzó su álbum tan hypeado que tenía planeado? incluso canceló el listening party</p>
+			  </div>
+			 <div class="post-actions">
+				<button>Me gusta</button>
+				<button>Comentar</button>
+				<button>Compartir</button>
+			 </div>
+			</div>
+		</div>
+		</section>
+			<section class="Artists" id="Artists">
+				<div class="artistas-seccion">
+					<h2 class="subtitle1">Artistas principales</h2>
+					<div class="artistas-container">
+						<div class="artista-card">
+							<img src="./img/The weeknd.jpg" alt="The Weeknd" class="artista-img">
+							<h3 class="artista-nombre">The Weeknd</h3>
+							<p class="artista-descripcion">The Weeknd, es un cantante, rapero, compositor y productor discográfico canadiense.​ </p>
+						</div>
+						<div class="artista-card">
+							<img src="./img/ariana.jpg" alt="Ariana" class="artista-img">
+							<h3 class="artista-nombre">Ariana Grande</h3>
+							<p class="artista-descripcion">Ariana Grande-Butera​ es una cantante, actriz y empresaria estadounidense.​ Comenzó su carrera musical en Brodway a los 15 años.</p>
+						</div>
+						<div class="artista-card">
+							<img src="./img/rauw.jpg" alt="Rauw Alejandro" class="artista-img">
+							<h3 class="artista-nombre">Rauw Alejandro</h3>
+							<p class="artista-descripcion">Rauw Alejandro, es un cantante, compositor, productor musical y bailarín puertorriqueño.​ </p>
+						</div>
+						<div class="artista-card">
+							<img src="./img/alvaro.jpg" alt="Alvaro Diaz" class="artista-img">
+							<h3 class="artista-nombre">Álvaro Diaz</h3>
+							<p class="artista-descripcion">Álvaro Díaz, es un rapero, cantante y compositor musical puertorriqueño. </p>
+						</div>
+						<div class="artista-card">
+							<img src="./img/ldr.jpg" alt="Lanadelrey" class="artista-img">
+							<h3 class="artista-nombre">Lana del Rey</h3>
+							<p class="artista-descripcion">Lana Del Rey, es una cantante, compositora, modelo, actriz, escritora, productora y poetisa estadounidense.</p>
+						</div>
+						<div class="artista-card">
+							<img src="./img/bb.jpg" alt="Badbunny" class="artista-img">
+							<h3 class="artista-nombre">Bad Bunny</h3>
+							<p class="artista-descripcion">Bad Bunny, es un cantante, compositor, productor musical, luchador profesional y actor puertorriqueño.</p>
+						</div>
+						<div class="artista-card">
+							<img src="./img/aqh.jpg" alt="Aquihayaquihay" class="artista-img">
+							<h3 class="artista-nombre">Aquihayaquihay</h3>
+							<p class="artista-descripcion">Aquihayaquihay es una boy band mexicana con influencias de R&B y hip-hop impulsada por Finesse Records.</p>
+						</div>
+						<div class="artista-card">
+							<img src="./img/ye.jpg" alt="Ye" class="artista-img">
+							<h3 class="artista-nombre">Kanye West (Ye)</h3>
+							<p class="artista-descripcion">Kanye West es un rapero, productor, actor, diseñador y empresario estadounidense.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="News" id="News">
+				<div class="container">
+					<h2 class="subtitle">Novedades</h2>
+					<div class="container-table">
+						<div class="card-container">
+							<div class="contenido">
+							<h3>Spotify Wrapped, ¿cuándo sale?</h3>
+							<p>El resumen anual más esperado por las personas, cada año Spotify recopila
+								y te muestra las estadísticas de lo que escuchas en la plataforma llegará a 
+								principios de Diciembre...</p>
+							<a class="bot" href="https://businessinsider.mx/spotify-wrapped-2023-que-es-hasta-cuando-recopila-datos-cuando-saldra/">Leer más...</a>
+						</div>
+						</div>
+					</div>
+				</div>
+			<section class= "News" id="News">
+				<div class="container">
+					<div class="container-table">
+						<div class="card-container">
+							<div class="contenido">
+							<h3>Taylor Swift logra tener más oyentes mensuales que The Weeknd en Spotify</h3>
+							<p>La artista logró bajar de una racha casi perfecta de 12 meses al artista canadiense.
+								Era cuestión de tiempo que pasara ya que Taylor Swift ha sacado 3 álbumes durante
+								este año, debido a la situación que habría pasado con su antigua disquera 
+							</p>
+							<a class="bot" href="https://proyectopuente.com.mx/2023/11/02/taylor-swift-se-convierte-en-la-artista-mas-escuchada-de-spotify-al-superar-a-the-weeknd/">Leer más...</a>
+						</div>
+						</div>
+					</div>
+				</div>
+				<section class="News" id="News">
+					<div class="container">
+						<div class="container-table">
+							<div class="card-container">
+								<div class="contenido">
+								<h3>Billboard Music Awards, ¿cuándo son y quién estará?</h3>
+								<p>De los premios más famosos dentro de la industria musical donde destacan artistas como
+									Taylor Swift, The Weeknd y Olivia Rodrigo...
+								</p>
+								<a class="bot" href="https://www.billboard.com/espanol/musica/premios-billboard-de-la-musica-2023-actuaciones-como-ver-1235492014/">Leer más...</a>
+							</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="Contact" id="Contact">
+    			    <div class="contenido-seccion">
+            			<h2>Contacto y Soporte</h2>
+               				<div class="fila">
+                    			<div class="col">
+                        		<form id="form">
+                            	<div class="field">
+                                <label for="from_name">Nombre:</label>
+                                <input type="text" name="from_name" id="from_name">
+                            </div>
+                        <div class="field">
+                            <label for="message">Mensaje:</label>
+                            <input type="text" name="message" id="message">
+                        </div>
+                        <div class="field">
+                            <label for="email_id">Email:</label>
+                            <input type="text" name="email_id" id="email_id">
+    	                </div>
+                        <button type="submit" id="button" value="Send Email">
+                            Enviar Mensaje<i class="bi bi-send"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+                </div>
+    	        <div class="col">
+                    <div class="info">
+							<h2>No one man should have all that POWER</h2>
+                            <p>- Ye West/ Power  | |  <i class="bi bi-instagram"></i> <i class="bi bi-twitter-x"></i> @musicXplore </p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<script src="./js/funciones.js"></script>	
+</body>
+</html>
